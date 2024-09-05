@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+* {
+
+  cursor: default;
+  color: white;
+
+}
+
+body {
+  
+  font-family: Poppins, sans-serif;
+  color: #ffffff;
+
+}
+
+/* TOP */
+
+#Portfolio {
+  font-family: Poppins, sans-serif;
+  font-weight: 500;
+  color: #f0a500;
+}
+
+#Portfolio:active {
+  font-weight: 700;
+}
+
+#name {
+  font-size: 50px;
+}
+
+.navbar {
+  background-color: #0e182b;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 1.1);
+}
+
+.nav-link {
+  font-weight: 600;
+  color: white;
+  transition: 0s ease-out;
+  cursor: pointer;
+}
+
+.nav-link:hover {
+  background-color: #f0a500;
+  font-weight: 700;
+  color: #0e182b;
+  border-radius: 4px;
+}
+
+/* SOCIAL MEDIA LOGO AND ANIMATIONS */
+
+.social-media-logo {
+  width: 25px;
+}
+
+#social-logo {
+  padding: 10px;
+  margin-left: 5px;
+  border-radius: 40px;
+  background-color: rgba(255, 255, 255, 0.178);
+}
+#social-logo:hover {
+  background-color: rgba(255, 255, 255, 0.439);
+  border-radius: 40px;
+}
+
+
+/*My Experiences */
+#my-skills {
+  font-size: 20px;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 1.15);
+}
+
+/*Contact Me */
+
+.forms {
+  border-radius: 12px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 400px;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 1.15);
+}
+
+.yellow:hover {
+  color: #f0a500;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 1);
+  transition: 0.15s ease-in-out;
+}
+
+.about-me,
+.experience,
+.contact-me {
+  font-size: 70px;
+  transition: 0.5s ease-in-out;
+}
+
+.about-me:hover,
+.experience:hover,
+.contact-me:hover {
+  font-size: 100px;
+  transition: 0.5s ease-in-out;
+  color: #f0a500;
+}
+
+.yellow1 {
+  color: #f0a500;
+}
+
+#love {
+  color: red;
+  transition: 0.5 ease-in-out;
+}
+
+
+.details {
+  color:red;
+}
+
+.title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: rgb(2, 0, 36);
+}
+
+.details {
+  color: rgb(2, 0, 36);
+}
+
+.gender-title {
+  color: rgb(2, 0, 36);
+}
+
+.gender {
+  color: rgb(2, 0, 36);
+}
